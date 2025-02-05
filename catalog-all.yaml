@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: parasol-catalog-all
+  description: A collection of Parasol components
+spec:
+  type: url
+  target: ./**/catalog-info.yaml
